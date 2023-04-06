@@ -94,7 +94,7 @@
             // Записываем данные в таблицу
             $mysql->query("INSERT INTO `users` (`name`, `password`) VALUES('$name','$pass') ");
             // Ура!
-            echo "Registration passed succefully. You can log in with these data now";
+            echo "<p class='text-center'>Registration passed succefully. You can log in with these data now</p>";
         }
     }
 
@@ -105,7 +105,7 @@
         <div class="row text-center">
             <div class="col text-center">
                 <!-- Форма регистрации-->
-                <form method="post" class="text-center" action="register.php">
+                <form method="post" class="text-center" action="index.php">
                     <img src="logo.svg" class="w-100" alt="">
                     <h2>REGISTER</h2>
                     <br>
