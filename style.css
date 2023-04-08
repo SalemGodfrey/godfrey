@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-origin: border-box;
+}
+
+*::selection {
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.slidesDiv {
+    background-image: url("images/chloe.jpg");
+    background-size: cover;
+    background-position-x: -28vw;
+    width: 45%;
+    height: 100vh;
+    float: left;
+
+}
+
+.mainDiv {
+    background-color: white;
+    width: 55%;
+    height: 100vh;
+    float: right;
+    overflow-y: scroll
+}
+
+.clear {
+    clear: both;
+}
+
+.logo::selection {
+    background-color: transparent;
+}
+
+.logo {
+    font-family: "Capture it 2";
+    color: white;
+    font-size: 2.1vw;
+    padding: 0.6vw;
+
+}
+
+nav {
+    /* border: blue 1px solid; */
+    padding: 0 !important;
+    width: 100% !important;
+    position: relative !important;
+    position: fixed;
+    top: 0;
+}
+
+.nav-link:hover {
+
+    transition: all ease-in-out .4s;
+    background-color: rgba(143, 143, 143, 0.42);
+
+}
+
+#active {
+    border-bottom: black 3px solid;
+}
+
+
+
+ul {
+    padding: 0.5vw !important;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+li {
+    padding: 0% !important;
+    font-family: 'Crimson Pro';
+    font-size: 1.5vw;
+}
+
+.floating {
+    width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Engry';
+}
+
+p {
+    font-family: 'Crimson Pro';
+    font-size: 1vw;
+}
+
+
+
+.title {
+    font-size: 2vw;
+}
+
+.mainText {
+    width: 90%;
+    margin: auto;
+}
+
+.myPhoto {
+    float: right;
+    width: 17vw;
+    padding-left: 1vw;
+}
+
+.customCard {
+    background-color: black;
+    color: white ;  
+    padding: 1.5rem;
+    margin-top: 0.5rem;
+    transition: ease-in-out 0.5s;
+    cursor:pointer;
+    font-size: 30px;
+    width: 100%;
+}
+.customCard:hover {
+    color: grey ;
+    transform: scale(1.04);
+    transition: ease-in-out 0.5s;
+}
+
+.round1 {
+    border: 3px white solid;
+    background-color: rgba(255, 255, 255, 0.386);
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+}
+
+.round1:hover {
+    background-color: rgba(255, 255, 255, 0.804);
+    transition: ease-in-out 1s
+}
+
+.roundActive {
+    border: 3px white solid !important;
+    background-color: white !important;
+    width: 2vw !important;
+    height: 4vh !important;
+    border-radius: 100% !important;
+}
+
+.round2 {
+    border: 3px white solid;
+    background-color: rgba(255, 255, 255, 0.386);
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+}
+
+.round2:hover {
+    background-color: rgba(255, 255, 255, 0.804);
+    transition: ease-in-out 1s
+}
+
+.round3 {
+    border: 3px white solid;
+    background-color: rgba(255, 255, 255, 0.386);
+    width: 2vw;
+    height: 4vh;
+    border-radius: 100%;
+}
+
+.round3:hover {
+    background-color: rgba(255, 255, 255, 0.804);
+    transition: ease-in-out 1s
+}
+
+.roundList {
+    display: flex;
+    justify-content: space-between;
+    width: 8vw;
+    padding: 0.6vw;
+
+}
+
+.slidesText {
+    color: white;
+}
+
+.title2 {
+    color: white;
+    font-size: 2vw;
+
+}
+
+.description {
+    width: 25vw;
+    float: right;
+
+}
+
+.flexRounds {
+    display: flex;
+    align-items: flex-end;
+    width: 19vw;
+    height: 25vh;
+    float: left;
+}
+
+.flexControls {
+    display: flex;
+    height: 90vh;
+}
+
+.controls {
+    align-self: flex-end;
+    display: block;
+}
+
+#send {
+    width: 100%;
+    height: 4vh;
+    font-size: 0.6vw;
+}
+
+#textarea {
+    width: 100%;
+    height: 10vh;
+    font-size: 0.6vw;
+}
+
+.textInput {
+    width: 100%;
+    height: 4vh;
+    font-size: 0.6vw
+}
+
+.textInput::placeholder {
+    font-size: 0.6vw
+}
+
+.port{
+    transition: ease-in-out 1s;
+
+}
+
+.port:hover {
+    cursor: pointer;
+    transition: ease-in-out 1s;
+    transform: scale(1.05);
+    filter: grayscale(1);
+}
+
+::-webkit-scrollbar {
+    width: 0.3vw;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    display:grid;
+}
