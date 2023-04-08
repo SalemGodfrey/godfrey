@@ -274,6 +274,6 @@ p {
 
 @media screen and (max-width: 1300px) {
     .slidesDiv {
-        display: none;
+        display: none !important;
     }
 }
