@@ -293,4 +293,7 @@ p {
     .myPhoto {
         width: 17rem;
     }
+    li {
+    font-size: 1.5rem;
+}
 }
